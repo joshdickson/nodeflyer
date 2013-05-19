@@ -1,37 +1,32 @@
+/*
+ * nodeflyer.css
+ * 
+ * @author Joshua Dickson
+ *
+ * A simple CSS stylesheet that provides markup for the nodeflyer application
+ */
+
+/************************** BODY STYLES *************************/
 body {
 	font-family: 'Open Sans';
 	background-color: #ddd;
 	font-size: 0;
 }
 
-.light {
-	font-weight: 300;
-}
-
-strong {
-	font-weight: 600;
-}
-
-#canvas {
-	background: url(../img/background.png) no-repeat center center;
-	background-size: cover;
-	overflow: hidden;
-	position: relative;
-	z-index: 1;
-}
-
 div#page-wrapper {
 	box-shadow: 0 0 10px #444;
 	width: 1000px;
 	margin: 0 auto;
-	z-index: 2;
-	/*position: relative;*/
 }
 
-h3 {
-	font-size: 24px;
-}
+/**************************** TYPOGRAPHY *************************/
+.light { font-weight: 300; }
+strong { font-weight: 600; }
+h3 { font-size: 24px; }
 
+
+
+/************************** ELEMENT STYLES ***********************/
 .logo {
 	display: inline-block;
 	padding: 8px 28px 12px 28px;
@@ -53,7 +48,14 @@ h3 {
 	margin-left: 852px;
 	z-index: 102;
 	top: 0; 
-	/*right: 0; */
 	border: 0;
 	position: absolute;
+}
+
+#canvas {
+	background: url(../img/background.png) no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
 }
