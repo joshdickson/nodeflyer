@@ -50,7 +50,7 @@ h3 {
 }
 
 .fork-me {
-	padding-left: 852px;
+	margin-left: 852px;
 	z-index: 102;
 	top: 0; 
 	/*right: 0; */
