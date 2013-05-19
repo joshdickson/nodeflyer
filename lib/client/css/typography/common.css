@@ -1,0 +1,24 @@
+/*********************************** FLOATS AND CLEARS *********************************/
+.fl { float: left; }
+.fr { float: right; }
+
+.cb { clear: both; }
+
+.inline-block { display: inline-block; vertical-align: middle; }
+.block {
+	display: block;
+}
+
+.align-bottom { vertical-align: top; }
+
+
+/************************************* TYPOGRAPHY **********************************/
+strong { font-weight: 600; }
+.light { font-weight: 300; }
+.uppercase { text-transform: uppercase; }
+
+
+/************************************** ALIGNMENTS *****************************************/
+.center-text { text-align: center; }
+.horizontally-centered { margin: auto; }
+

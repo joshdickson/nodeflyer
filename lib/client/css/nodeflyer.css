@@ -1,0 +1,59 @@
+body {
+	font-family: 'Open Sans';
+	background-color: #ddd;
+	font-size: 0;
+}
+
+.light {
+	font-weight: 300;
+}
+
+strong {
+	font-weight: 600;
+}
+
+#canvas {
+	background: url(../img/background.png) no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+div#page-wrapper {
+	box-shadow: 0 0 10px #444;
+	width: 1000px;
+	margin: 0 auto;
+	z-index: 2;
+	/*position: relative;*/
+}
+
+h3 {
+	font-size: 24px;
+}
+
+.logo {
+	display: inline-block;
+	padding: 8px 28px 12px 28px;
+	background-color: red;
+	margin: 12px;
+	border-radius: 12px;
+	background-color: #3b4b58;
+	color: #ebecec;
+	position: absolute;
+	z-index: 100;
+}
+
+.header {
+	position: absolute;
+	z-index: 10;
+}
+
+.fork-me {
+	padding-left: 852px;
+	z-index: 102;
+	top: 0; 
+	/*right: 0; */
+	border: 0;
+	position: absolute;
+}
