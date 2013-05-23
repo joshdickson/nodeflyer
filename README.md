@@ -1,6 +1,7 @@
 ##### README ######
 
 @author Joshua Dickson, Arsani Gaied, Cameron Stoughton
+
 @version May 19, 2013
 
 The nodeflyer application is a web app used to demonstrate the functionality of node.js in a real-time message passing scenario. 
