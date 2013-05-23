@@ -1,0 +1,28 @@
+{
+  "name": "nodeflyer",
+  "version": "0.1.0",
+  "description": "A web app used to demonstrate the functionality of node.js in a real-time message passing scenario",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshdickson40/nodeflyer.git"
+  },
+  "author": "Dynamite",
+  "dependencies" : {
+    "express": "3.2.x",
+  	"node-static" : "0.6.x",
+    "socket.io" : "0.9.x"
+  },
+  "contributors" : [ {
+    "name" : "Joshua Dickson",
+    "email" : "josh.dickson@wpi.edu",
+    "url" : "https://github.com/joshdickson40"
+  }, {
+    "name" : "Arsani Gaied",
+    "email" : "arsaniwilliam@gmail.com",
+    "url" : "https://github.com/arsaniwilliam"
+  }, {
+    "name" : "Cameron Stoughton",
+    "email" : "cameron@stoughtonfamily.com"
+  } ],
+  "license": "MIT"
+}
